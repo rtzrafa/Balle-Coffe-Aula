@@ -1,0 +1,136 @@
+/* Importação das Fonts Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@500&family=Inter:wght@600&family=Montserrat:wght@800&family=Teko:wght@600&display=swap');
+
+/* ============================= */
+/* Estilos gerais (Todo o projeto) */
+/* ============================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #1F1517;
+    color: #FFF;
+}
+
+html {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+/* ============================= */
+/* Header */
+/* ============================= */
+
+nav {
+    max-width: 1120px;
+    margin: auto;
+    padding: 1.5rem 10rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title {
+    font-family: 'Teko', sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+/* Menu hamburguer */
+
+.menu-toggle {
+    display: none;
+    cursor: pointer;
+}
+
+.menu-icon {
+    width: 28px;
+    margin-left: 20px;
+    display: none;
+}
+
+.menu {
+    display: flex;
+    gap: 24px;
+    margin: 9px 25px 0 25px;
+}
+
+.menu a {
+    color: #FFF2E780;
+    transition: color 0.3s ease;
+}
+
+.menu a:hover {
+    color: #FFF;
+}
+
+.menu a:visited {
+    color: #FFF2E780;
+}
+
+.github {
+    color: #FFF2E7;
+    font-weight: 600;
+    margin-top: 8px;
+    transition: color 0.3s ease;
+}
+
+.github:hover {
+    color: #a45a49;
+}
+
+/* ============================= */
+/* Responsividade */
+/* ============================= */
+
+@media screen and (max-width: 768px) {
+
+    nav {
+        padding: 1.5rem 2rem;
+        position: relative;
+    }
+
+    .menu {
+        flex-direction: column;
+        position: absolute;
+        top: 70px;
+        left: 0;
+        width: 100%;
+        background: #333;
+        text-align: center;
+        gap: 15px;
+        padding: 1rem 0;
+        display: none; /* Esconde inicialmente */
+    }
+
+    .menu li {
+        margin: 10px 0;
+    }
+
+    .menu-icon {
+        display: block;
+        cursor: pointer;
+    }
+
+    .github {
+        margin: 0;
+    }
+
+    .title {
+        margin: 0;
+    }
+
+}

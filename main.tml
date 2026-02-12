@@ -3,36 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Explore dezenas de variações da bebida
-     favorita entre os devs ao redor do mundo!">
-    
-    <!-- Inserindo favoricon -->
-     <link rel="shortcut icon" hreh="assets/favoricon.jpg" type="image/x-icon">
+    <meta name="description" content="Explore dezenas de variações da bebida favorita entre os devs ao redor do mundo!">
 
-     <!-- Link para CSS -->
+    <!-- Inserindo favicon -->
+    <link rel="shortcut icon" href="assets/favicon.jpg" type="image/x-icon">
+
+    <!-- Link para CSS -->
     <link rel="stylesheet" href="main.css">
 
-    <title>ballecoffe-Aula</title>
+    <title>BalleCoffe</title>
 </head>
 <body>
 
-    <!-- ____________________________________________________-->
+    <!-- ------------------------------------------------------------ -->
     <!-- Sessão principal (Main) -->
 
-     <main>
+    <main>
         <div class="container">
             <section class="info">
-                <!-- Destaque -->
-                 <header class="content">
-                    <span class="news marrom">Novidades</span>
-                    <h1>Encontre a receitas perfeita!</h1>
-                    <hr/>
-                    <h2 class="subtitle"> Explore dezenas de variações da bebida
-                    favorita entre os devs ao redor do mundo!</h2>
-                 </header>
 
-                 <!-- Galeria de imagens -->
-                  <div class="images">
+                <!-- Destaque -->
+                <header class="content">
+                    <span class="news marrom">Novidades</span>
+                    <h1>Encontre a receita perfeita!</h1>
+                    <hr/>
+                    <h2 class="subtitle">Explore dezenas de variações da bebida favorita entre os devs ao redor do mundo!</h2>
+                </header>
+
+                <!-- Galeria de imagens -->
+                <div class="images">
                     <figure>
                         <img src="./assets/imagem-1.png" alt="">
                     </figure>
@@ -43,7 +42,7 @@
                         <img src="./assets/imagem-3.png" alt="">
                     </figure>
                     <figure>
-                        <img src="./assets/imagem-4.png" alt="">
+                        <img src="./assets/imagem-04.png" alt="">
                     </figure>
                     <figure>
                         <img src="./assets/imagem-5.png" alt="">
@@ -70,20 +69,22 @@
                         <img src="./assets/imagem-12.png" alt="">
                     </figure>
                 </div>
+
             </section>
         </div>
 
         <!-- Botão -->
         <section class="button">
             <button type="button">
-                <a href="#receitas"> <img src="./assets/button.svg" alt="">
-                </a>
+                <a href="#receitas"><img src="./assets/button.svg" alt=""></a>
             </button>
         </section>
 
-    <!-- ______________________________________________ -->
-    <!-- Footer (Rodapé) -->
-    <script src="efeito.js"></script>
+    </main>
 
-    </body>
-    </html>
+    <!-- ------------------------------------------------------------ -->
+    <!-- Footer (Rodapé) -->
+    <script src="efeitos.js"></script>
+
+</body>
+</html>
